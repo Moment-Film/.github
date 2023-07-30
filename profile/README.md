@@ -21,7 +21,7 @@
       <sub><b>Designer</b></sub><br />
       <a href="">
         <sub><b>김아라</b></sub></a><br />
-        <a href="">🙍</a><br />
+        <a href="https://github.com/bigmacbigmac">🙍</a><br />
         <sub><b>Member</b></sub></a><br />
     </td>
     <td align="center">
