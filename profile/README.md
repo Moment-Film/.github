@@ -13,8 +13,8 @@
     <td align="center">
       <sub><b>Backend</b></sub><br /> 
       <a href="https://github.com/9yuhyeon">
-        <sub><b>김지훈</b></sub></a><br />
-        <a href="https://github.com/mkm101">🙍‍♂️</a><br />
+        <sub><b>김규현</b></sub></a><br />
+        <a href="https://github.com/9yuhyeon">🙍‍♂️</a><br />
         <sub><b>Vice Leader</b></sub></a><br />
     </td>
     <td align="center">
@@ -22,13 +22,6 @@
       <a href="https://github.com/bigmacbigmac">
         <sub><b>김아라</b></sub></a><br />
         <a href="https://github.com/bigmacbigmac">🙍</a><br />
-        <sub><b>Member</b></sub></a><br />
-    </td>
-    <td align="center">
-      <sub><b>Backend</b></sub><br />
-      <a href="https://github.com/9yuhyeon">
-        <sub><b>김규현</b></sub></a><br />
-        <a href="https://github.com/9yuhyeon">🙍‍♂️</a><br />
         <sub><b>Member</b></sub></a><br />
     </td>
     <td align="center">
