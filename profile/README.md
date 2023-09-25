@@ -214,7 +214,7 @@
 ## 💥 트러블 슈팅
 
 ### **Back-End**
-- 트러블 슈팅 1 : 회원탈퇴 시 JPA 제약 조건에 걸려 에러 발생
+트러블 슈팅 1 : 회원탈퇴 시 JPA 제약 조건에 걸려 에러 발생
 <table>
   <tr>
     <td width="10%">문제 상황</td>
@@ -280,7 +280,7 @@
   </tr>
 </table>     
     
-- 트러블 슈팅 2 : 무한스크롤 스로틀링 적용
+트러블 슈팅 2 : 무한스크롤 스로틀링 적용
 <table class="troubleshooting-table">
   <tr>
     <td width="100px"> 도입 이유</td>
@@ -306,7 +306,7 @@
 </table>
     
     
-- 트러블 슈팅 3 : 회원정보 수정 Mutation 적용
+트러블 슈팅 3 : 회원정보 수정 Mutation 적용
 <table>
   <tr>
     <td width="100px"> 도입 이유</td>
@@ -331,8 +331,7 @@
   </tr>
 </table>
 
-    
-- 트러블 슈팅 4 : dom to image CORS 에러
+트러블 슈팅 4 : dom to image CORS 에러
 <table class="troubleshooting-table">
   <tr>
     <td width="100px"> 도입 이유</td>
@@ -358,7 +357,7 @@
   </tr>
 </table>
 
-- 트러블 슈팅 5 : 반응형디자인
+트러블 슈팅 5 : 반응형디자인
 <table class="troubleshooting-table">
   <tr>
     <td width="100px"> 도입 이유</td>
@@ -383,7 +382,7 @@
   </tr>
 </table>
 
-- 트러블 슈팅 6 : 이미지 로딩
+트러블 슈팅 6 : 이미지 로딩
 <table class="troubleshooting-table">
   <tr>
     <td width="100px"> 도입 이유</td>
