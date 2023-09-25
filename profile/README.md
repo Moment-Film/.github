@@ -76,7 +76,8 @@
 ## 📸 주요 기능
 <details>
   <summary>주요 기능</summary>
-  
+<br/>
+
 **회원가입/로그인**
 
 - JWT 기반 로그인
@@ -152,6 +153,7 @@
 ## 기술 스택 선정 이유
 <details>
   <summary>기술 스택 선정 이유</summary>
+<br/>
   
   **FrontEnd**
 
@@ -175,6 +177,7 @@
 ## 📚 프로젝트 아키텍처
 <details>
   <summary>아키텍처 이미지</summary>
+  <br/>
   
   ![dsa](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2F50999977-a7e2-45c8-8a6d-6a44cc67fb71%2FFrame_1337.png?table=block&id=b445c027-7c1f-485e-b6cb-de9620fa01be&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=2000&userId=&cache=v2) 
 </details>
@@ -182,7 +185,8 @@
 
 ## 🔑 **DB ERD**
 <details>
-  <summary>ERD 이미지</summary> 
+  <summary>ERD 이미지</summary>
+  <br/>
   
   ![adqsd](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Ff70b5650-0a32-4d42-b5fa-929a820bbad9%2FUntitled.png?table=block&id=49a20687-721c-4537-b256-b9c4071eab73&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=2000&userId=&cache=v2)
 </details>
@@ -196,16 +200,18 @@
 
 <details>
   <summary>피드백 통계</summary>
+  <br/>
   
-![11](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb65d154d-4ccc-45a2-a879-c9cb8d0e362f%2FUntitled.png?table=block&id=069349d7-b9b8-4fd8-8a18-29d732de5962&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1520&userId=&cache=v2)
+![11](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb65d154d-4ccc-45a2-a879-c9cb8d0e362f%2FUntitled.png?table=block&id=069349d7-b9b8-4fd8-8a18-29d732de5962&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=700&userId=&cache=v2)
 
-![22](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2F1df9f225-4a73-4fea-8c18-e043ad3e52ad%2FUntitled.png?table=block&id=5cb3e081-9836-43eb-963e-5401e0012bdb&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1530&userId=&cache=v2)
+![22](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2F1df9f225-4a73-4fea-8c18-e043ad3e52ad%2FUntitled.png?table=block&id=5cb3e081-9836-43eb-963e-5401e0012bdb&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=700&userId=&cache=v2)
 
-![33](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb349f17e-9f7c-405f-9ec3-74d6ba0bb69e%2FUntitled.png?table=block&id=51f8a0f8-05fe-4565-adec-180e962d6be3&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1530&userId=&cache=v2) 
+![33](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb349f17e-9f7c-405f-9ec3-74d6ba0bb69e%2FUntitled.png?table=block&id=51f8a0f8-05fe-4565-adec-180e962d6be3&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=700&userId=&cache=v2) 
 </details>
 
 <details>
   <summary>피드백 내용</summary>
+  <br/>
   
 1. 좌우 반전 설정 기능이 없어서 불편했어요.
     - 기능 추가 완료
