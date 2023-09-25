@@ -74,8 +74,9 @@
 </table>
 
 ## 📸 주요 기능
-
-**회원가입/로그인**
+<details>
+  <summary>주요 기능</summary>
+  **회원가입/로그인**
 
 - JWT 기반 로그인
 - 소셜 로그인
@@ -124,6 +125,9 @@
 - 인기 사용자 추천
 - 검색어 내역 조회 / 삭제
 - 검색 결과 유무 페이지 분리 → 결과 없을 경우 인기 사용자 추천
+</details>
+
+
 
 ## 🛠 기술 스택
 
@@ -145,8 +149,10 @@
 |  | AWS ELB |
 
 ## 기술 스택 선정 이유
-
-**FrontEnd**
+<details>
+  <summary>기술 스택 선정 이유</summary>
+  
+  **FrontEnd**
 
 - **React Query**: 서버로의 데이터 요청, 서버 상태와의 캐싱을 간단하게 처리할 수 있어서 채택
 - **Redux, Redux-persist** : 전역에서 관리해야하는 상태들을 처리하기위해 모든 팀원들이 사용해본경험이 있는 Redux를 채택하였고 새로고침 시에도 유지하기위해 Redux-persist 사용하였습니다.
@@ -162,14 +168,24 @@
 - **AWS Lambda** : AWS Lambda는 S3에 이미지가 업로드 될 때 자동으로 실행되며, 이미지 리사이징과 같은 이벤트 기반 작업을 효율적으로 처리함. 스케일링이 필요한 경우 자동으로 관리할 수 있어 Serverless 솔루션인 AWS Lambda를 채택
 - **SSE** : 실시간 푸쉬 알림의 경우 클라이언트간 연결을 지속적으로 유지할 이유가 없고,
 좋아요 및 팔로우와 같이 특정 이벤트에만 연결이 필요함. 이에 서버 부하 감소를 위해 서버에서 클라이언트로 푸시하는 단방향 통신 프로토콜이 적합하다고 판단하여 SSE를 채택
+</details>
+
 
 ## 📚 프로젝트 아키텍처
+<details>
+  <summary>아키텍처 이미지</summary>
+  
+  ![dsa](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2F50999977-a7e2-45c8-8a6d-6a44cc67fb71%2FFrame_1337.png?table=block&id=b445c027-7c1f-485e-b6cb-de9620fa01be&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=2000&userId=&cache=v2) 
+</details>
 
-![dsa](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2F50999977-a7e2-45c8-8a6d-6a44cc67fb71%2FFrame_1337.png?table=block&id=b445c027-7c1f-485e-b6cb-de9620fa01be&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=2000&userId=&cache=v2)
 
 ## 🔑 **DB ERD**
+<details>
+  <summary>ERD 이미지</summary> 
+  
+  ![adqsd](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Ff70b5650-0a32-4d42-b5fa-929a820bbad9%2FUntitled.png?table=block&id=49a20687-721c-4537-b256-b9c4071eab73&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=2000&userId=&cache=v2)
+</details>
 
-![adqsd](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Ff70b5650-0a32-4d42-b5fa-929a820bbad9%2FUntitled.png?table=block&id=49a20687-721c-4537-b256-b9c4071eab73&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=2000&userId=&cache=v2)
 
 ## 👨‍👩‍👦‍👦 유저 피드백
 
@@ -177,14 +193,21 @@
 
 피드백 참여 인원 : 31명
 
+<details>
+  <summary>피드백 통계</summary>
+  
 ![11](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb65d154d-4ccc-45a2-a879-c9cb8d0e362f%2FUntitled.png?table=block&id=069349d7-b9b8-4fd8-8a18-29d732de5962&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1520&userId=&cache=v2)
 
 ![22](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2F1df9f225-4a73-4fea-8c18-e043ad3e52ad%2FUntitled.png?table=block&id=5cb3e081-9836-43eb-963e-5401e0012bdb&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1530&userId=&cache=v2)
 
-![33](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb349f17e-9f7c-405f-9ec3-74d6ba0bb69e%2FUntitled.png?table=block&id=51f8a0f8-05fe-4565-adec-180e962d6be3&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1530&userId=&cache=v2)
+![33](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb349f17e-9f7c-405f-9ec3-74d6ba0bb69e%2FUntitled.png?table=block&id=51f8a0f8-05fe-4565-adec-180e962d6be3&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1530&userId=&cache=v2) 
+</details>
+
 
 **FeedBack**
-
+<details>
+  <summary>피드백 내용</summary>
+  
 1. 좌우 반전 설정 기능이 없어서 불편했어요.
     - 기능 추가 완료
 2. 네컷 사진 촬영 후 커스텀 페이지로 이동 시 촬영했던 사진이 날라가요.
@@ -210,9 +233,12 @@
 11. 펜툴 부분에서 스크롤 off를 하고 다음으로 넘어가면 다음 페이지도 스크롤이 off된 상태라 프레임 하단의 다운로드나 게시물 업로드 버튼을 볼 수 없었어요.
     - 함수부분 조건 변경했습니다.
     - 스크롤 이벤트를 만들어서 스크롤 동작 시에 e.preventDefault()를 동작, 언마운트 시 스크롤이벤트 제거하는 방식에서 document.body.style.overflow = "auto” or “hidden” 으로 수정했습니다.
+</details>
 
 ## 💥 트러블 슈팅
-
+<details>
+  <summary>트러블 슈팅</summary>
+  
 ### **Back-End**
 트러블 슈팅 1 : 회원탈퇴 시 JPA 제약 조건에 걸려 에러 발생
 <table>
@@ -406,3 +432,6 @@
     추가적인 이미지 캐싱 개선방식은 더 알아봐야 할 것 같다.</td>
   </tr>
 </table>
+</details>
+
+
