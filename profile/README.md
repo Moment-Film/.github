@@ -76,7 +76,8 @@
 ## 📸 주요 기능
 <details>
   <summary>주요 기능</summary>
-  **회원가입/로그인**
+  
+**회원가입/로그인**
 
 - JWT 기반 로그인
 - 소셜 로그인
@@ -203,8 +204,6 @@
 ![33](https://silent-bronze-0cc.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F0e43e3f6-48de-4f63-88d9-da3978bf1e78%2Fb349f17e-9f7c-405f-9ec3-74d6ba0bb69e%2FUntitled.png?table=block&id=51f8a0f8-05fe-4565-adec-180e962d6be3&spaceId=0e43e3f6-48de-4f63-88d9-da3978bf1e78&width=1530&userId=&cache=v2) 
 </details>
 
-
-**FeedBack**
 <details>
   <summary>피드백 내용</summary>
   
