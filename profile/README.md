@@ -217,7 +217,7 @@
 - 트러블 슈팅 1 : 회원탈퇴 시 JPA 제약 조건에 걸려 에러 발생
 <table>
   <tr>
-    <td>문제 상황</td>
+    <td width="10%">문제 상황</td>
     <td>회원 탈퇴 시 User와 연관 관계가 맺어진 Entity를 JPA 제약 조건으로 인해 삭제할 수 없어 SQLIntegrityConstraintViolationException 에러 발생</td>
   </tr>
   <tr>
@@ -229,7 +229,7 @@
 트러블 슈팅 2 : 암호화된 민감정보(휴대폰 번호)의 중복 검사
 <table>
   <tr>
-    <td>문제 상황</td>
+    <td width="10%">문제 상황</td>
     <td>회원 가입 시 사용자의 민감정보(휴대폰 번호)는 AES256 알고리즘으로 암호화 후 DB USER 테이블에 저장되며, 회원가입 또는 개인정보 수정 시 휴대폰 번호의 중복을 확인하기 위해 DB에 저장된 모든 휴대폰 번호를 복호화 후 중복 값이 있는지 검증하는 것은 비효율적이라 판단</td>
   </tr>
   <tr>
@@ -242,7 +242,7 @@
 트러블 슈팅 3 : 이미지 리사이징 반복 문제
 <table>
   <tr>
-    <td>문제 상황</td>
+    <td width="10%">문제 상황</td>
     <td>사용자의 원본 프로필 이미지 사용 빈도와 리사이징 이미지 사용 빈도가
     동등한 수준이지만 User 엔티티에는 리사이징된 이미지 컬럼이 없어
     매번 필요할 때마다 리사이징된 이미지 URL을 불러와야 하는 번거로움 발생</td>
@@ -256,16 +256,10 @@
 </table>    
 
 ### **Front-End**
-<style>
-  .troubleshooting-table {
-    margin-bottom: 20px; /* 테이블 아래 간격 조절 */
-  }
-</style>
-
 트러블 슈팅 1 : 검색 시 실시간 검색 삭제
-<table class="troubleshooting-table">
+<table>
   <tr>
-    <td> 도입 이유</td>
+    <td width="100px"> 도입 이유</td>
     <td>검색창 입력 중 해당 입력 값을 포함한 결과를 입력창 아래에 표기해주려 했으나 검색결과가 결국 같은 데이터를 보여주기에 삭제 하였습니다</td>
   </tr>
   <tr>
@@ -289,7 +283,7 @@
 - 트러블 슈팅 2 : 무한스크롤 스로틀링 적용
 <table class="troubleshooting-table">
   <tr>
-    <td> 도입 이유</td>
+    <td width="100px"> 도입 이유</td>
     <td>스크롤이벤트의 횟수를 줄이고 서버와의 통신 횟수를 줄여 성능 향상을 노림</td>
   </tr>
   <tr>
@@ -313,9 +307,9 @@
     
     
 - 트러블 슈팅 3 : 회원정보 수정 Mutation 적용
-<table class="troubleshooting-table">
+<table>
   <tr>
-    <td> 도입 이유</td>
+    <td width="100px"> 도입 이유</td>
     <td>회원정보 수정 후 수정된 정보를 바로 표시하기 위함</td>
   </tr>
   <tr>
@@ -341,7 +335,7 @@
 - 트러블 슈팅 4 : dom to image CORS 에러
 <table class="troubleshooting-table">
   <tr>
-    <td> 도입 이유</td>
+    <td width="100px"> 도입 이유</td>
     <td>DOM element 를 이미지로 만들떄 영역에 origin이 다른 이미지가 있다면 서버에서 허가해도 CORS 가 뜸</td>
   </tr>
   <tr>
@@ -367,7 +361,7 @@
 - 트러블 슈팅 5 : 반응형디자인
 <table class="troubleshooting-table">
   <tr>
-    <td> 도입 이유</td>
+    <td width="100px"> 도입 이유</td>
     <td>최초 기획에 모바일에서의 화면을 하지 않았음</td>
   </tr>
   <tr>
@@ -392,8 +386,8 @@
 - 트러블 슈팅 6 : 이미지 로딩
 <table class="troubleshooting-table">
   <tr>
-    <td> 도입 이유</td>
-    <td>이미지를 많이 사용하는 페이지이기에 이미지 로딩의 시간을 줄일 소요가 있음</td>
+    <td width="100px"> 도입 이유</td>
+    <td>이미지를 많이 사용하는 페이지이기에 이미지 로딩의 시간을 줄일 소요가 있음&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
   </tr>
   <tr>
     <td> 문제 상황</td>
@@ -413,5 +407,3 @@
     추가적인 이미지 캐싱 개선방식은 더 알아봐야 할 것 같다.</td>
   </tr>
 </table>
-
-![asdqq](https://www.notion.so/Moment-Film-001d47bc7b6244beb2304cd7aa49c96f?pvs=4#2b9102dce0664976860b772618d2ce34)
